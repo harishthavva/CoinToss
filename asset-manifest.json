@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/CoinToss/static/css/main.4117db2c.chunk.css",
+    "main.js": "/CoinToss/static/js/main.7760c07f.chunk.js",
+    "main.js.map": "/CoinToss/static/js/main.7760c07f.chunk.js.map",
+    "runtime-main.js": "/CoinToss/static/js/runtime-main.8b8be6df.js",
+    "runtime-main.js.map": "/CoinToss/static/js/runtime-main.8b8be6df.js.map",
+    "static/css/2.fe359a49.chunk.css": "/CoinToss/static/css/2.fe359a49.chunk.css",
+    "static/js/2.a295f19a.chunk.js": "/CoinToss/static/js/2.a295f19a.chunk.js",
+    "static/js/2.a295f19a.chunk.js.map": "/CoinToss/static/js/2.a295f19a.chunk.js.map",
+    "static/js/3.18b2015f.chunk.js": "/CoinToss/static/js/3.18b2015f.chunk.js",
+    "static/js/3.18b2015f.chunk.js.map": "/CoinToss/static/js/3.18b2015f.chunk.js.map",
+    "index.html": "/CoinToss/index.html",
+    "static/css/2.fe359a49.chunk.css.map": "/CoinToss/static/css/2.fe359a49.chunk.css.map",
+    "static/css/main.4117db2c.chunk.css.map": "/CoinToss/static/css/main.4117db2c.chunk.css.map",
+    "static/js/2.a295f19a.chunk.js.LICENSE.txt": "/CoinToss/static/js/2.a295f19a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8b8be6df.js",
+    "static/css/2.fe359a49.chunk.css",
+    "static/js/2.a295f19a.chunk.js",
+    "static/css/main.4117db2c.chunk.css",
+    "static/js/main.7760c07f.chunk.js"
+  ]
+}
