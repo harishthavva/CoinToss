@@ -1,5 +1,6 @@
 {
   "name": "myapp",
+  "homepage": "https://harishthavva.github.io/CoinToss",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
