@@ -7,10 +7,15 @@ COPY . .
 RUN npm install
 RUN npm run build
 
-From nginx:alpine
 
-WORKDIR /usr/share/nginx/html
+FROM nginx:1.16.0-alpine
 
-COPY --from=builder /app/build .
+COPY --from=builder /app/build /usr/share/nginx/html
+RUN rm /etc/nginx/conf.d/default.conf
+COPY nginx/nginx.conf /etc/nginx/conf.d
 
-CMD ["nginx", "-g", "daemon off;"]
+
+
+#fire up nginx
+EXPOSE 80 
+CMD ["nginx","-g","daemon off;"]
