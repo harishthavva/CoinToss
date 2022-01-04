@@ -11,7 +11,7 @@ function RandomPicker() {
     return (
       
         <div>
-            <img src={Image} style={{height:"auto", width:"200px"}} />
+            <img src={Image} style={{height:"auto", width:"200px"}} alt="Emoji for the Head/Tail Coin" />
             <h2>{data}</h2>
         </div>
     )

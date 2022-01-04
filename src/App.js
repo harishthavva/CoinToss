@@ -19,9 +19,9 @@ class App extends Component {
   render() {
     return (
       <div className="tac tc">
-        <h1>Toss a Coin using Internet <img src="https://img.icons8.com/emoji/48/000000/love-you-gesture-emoji.png"/></h1>
+        <h1>Toss a Coin using Internet <img src="https://img.icons8.com/emoji/48/000000/love-you-gesture-emoji.png" alt="Emoji Icons for the app"/></h1>
         <marquee direction="right">
-        <h3>Desinged by Harish</h3>
+        <h3>Designed by Harish</h3>
         </marquee>
         <button onClick={this.changeFn} style={{margin:"10px"}} className="link b black hover-purple shadow-2 bg-animate hover-bg-washed-green">Click Me !!!</button>
         {this.state.isClick ? <Random /> : null }
@@ -30,4 +30,4 @@ class App extends Component {
   }
 }
 
-export default App
+export default App;
